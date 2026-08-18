@@ -1,5 +1,7 @@
 # LeetCode to Notion Converter
 
+> **English TL;DR:** Auto-convert LeetCode problems into beautiful Notion pages — with full descriptions, example I/O, tags, hints, similar problems, and code templates, plus CSV batch import.
+
 将 LeetCode 题目自动转换为美观的 Notion 页面，支持题目描述、提示、相似问题、代码模板等丰富内容。
 
 ## ✨ 特性
