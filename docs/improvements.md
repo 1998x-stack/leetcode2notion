@@ -13,4 +13,4 @@
 - Risk & rollback: Previously trimmed whitespace will now be preserved, which is the intended behavior. Revert PR commit if downstream formatting depends on trimming; no persistent schema change.
 - Follow-up: Run python -m unittest discover -s tests -v from a full checkout and verify a real long statement in a non-production Notion workspace before merging.
 - Commit: 04cb80f8995e55b76cd9599df3891396c9db9657; d5c95fd72c1ddf45e84b3c40e35f23f362a13d85
-- PR: pending
+- PR: https://github.com/1998x-stack/leetcode2notion/pull/1
