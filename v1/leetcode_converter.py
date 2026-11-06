@@ -468,7 +468,8 @@ if __name__ == "__main__":
             if last_period > self.MAX_TEXT_LENGTH * 0.5:
                 chunk = chunk[:last_period + 1]
             
-            chunks.append(chunk.strip())
-            remaining = remaining[len(chunk):].strip()
+            # Keep boundary whitespace: stripping changes problem statements and examples.
+            chunks.append(chunk)
+            remaining = remaining[len(chunk):]
         
         return chunks
